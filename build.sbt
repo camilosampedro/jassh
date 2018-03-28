@@ -12,7 +12,7 @@ scalaVersion := "2.11.8"
 
 scalacOptions ++= Seq( "-deprecation", "-unchecked", "-feature")
 
-crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.1")
+crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.1") // Scala versions
 
 // Mandatory as tests are also used for performances testing...
 parallelExecution in Test := false
